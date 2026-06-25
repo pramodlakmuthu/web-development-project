@@ -1,0 +1,11 @@
+{
+  "name": "red-drop",
+  "version": "1.0.0",
+  "description": "Red Drop - simple static server for development",
+  "main": "start-server.js",
+  "scripts": {
+    "start": "node start-server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
