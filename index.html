@@ -45,6 +45,32 @@
       </a>
     </div>
   </nav>
-  
+  <!-- Hero section: introduction, mission message, call-to-action buttons, and hero image -->
+  <section id="home" class="hero-bg h-screen flex items-center text-gray-900 relative">
+    <div class="max-w-7xl mx-auto px-6 w-full">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="text-center md:text-left">
+          <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">One Drop Can Save <span class="text-red-400">Three Lives</span></h1>
+          <p class="text-lg md:text-xl mb-6 max-w-xl mx-auto md:mx-0">Blood donation is a simple act of kindness that can make a huge difference. Join our community and help save lives today.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a href="#checker" class="bg-red-600 hover:bg-red-700 px-8 md:px-10 py-3 rounded-full text-lg md:text-xl font-semibold transition">Check if you can donate</a>
+            <a href="#about" class="border-2 border-white hover:bg-white hover:text-red-700 px-8 md:px-10 py-3 rounded-full text-lg md:text-xl font-semibold transition">Learn More</a>
+          </div>
+          <div class="mt-8 text-sm flex justify-center md:justify-start gap-8">
+            <div class="flex items-center gap-2"><i class="fa-solid fa-heart text-red-400"></i><span>1 donation = up to 3 lives saved</span></div>
+            <div class="flex items-center gap-2"><i class="fa-solid fa-clock"></i><span>Takes only 30-45 minutes</span></div>
+          </div>
+        </div>
+
+        <!-- Decorative image for home page: original user-provided hero image with transparent background and black outline -->
+        <div class="hidden md:flex justify-center">
+          <div class="w-full max-w-2xl rounded-[32px] shadow-2xl overflow-hidden bg-transparent border-4 border-black">
+            <img src="assets/hero.png.avif" alt="Blood donation hero" class="w-full h-[420px] object-cover object-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
 </body>
 </html>
