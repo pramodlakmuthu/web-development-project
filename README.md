@@ -78,4 +78,3 @@ Don't wait. Check your eligibility today and become a blood donor. Together, we 
 
 ### 🌟 Save lives. Donate blood. Be a Red Drop hero. 🌟
 
-_Version 1.0.0_
