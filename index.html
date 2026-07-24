@@ -68,12 +68,32 @@
 
               <!-- ......... Navigation Capsule .......... -->
       <nav class="hidden md:flex items-center bg-black/60 border border-gray-800 rounded-full px-4 py-1.5 space-x-6 text-sm font-medium text-gray-300 shadow-inner">
-                <button onclick="shadowView('home')" class="nav-btn text-black hover:text-brand-blue transition">Home</button>
-                <button onclick="shadowView('about')" class="nav-btn text-black hover:text-brand-blue transition">About</button>
-                <button onclick="shadowView('eligibility')" class="nav-btn text-black hover:text-brand-blue transition">Eligibility</button>
-                <button onclick="shadowView('process')" class="nav-btn text-black hover:text-brand-blue transition">Process</button>
-                </nav>  
-              
+                <button onclick="shadowView('home')" class="nav-btn text-white hover:text-brand-blue transition">Home</button>
+                <button onclick="shadowView('about')" class="nav-btn hover:text-brand-blue transition">About</button>
+                <button onclick="shadowView('eligibility')" class="nav-btn  hover:text-brand-blue transition">Eligibility</button>
+                <button onclick="shadowView('process')" class="nav-btn  hover:text-brand-blue transition">Process</button>
+                </nav> 
+                
+                <!-- ........ Login button .......-->
+                 <div id="authActionsLoggedOut" class="flex items-center space-x-3">
+                    <button onclick="showView('login')" class="bg-brand-blue hover.bg-blue-600 text-white text-xs font-semibold px-5 py-2 rounded-full transition shadow-lg shadow-blue-500/20">Login</button>
+                </div>   
+                
+                <div id="authActionsLoggedIn" class="hidden flex items-center space-x-3">
+                     <button onclick="toggleAuth(false)" class="bg-brand-blue hover:bg-blue-600 text-white text-xs font-semibold px-5 py-2 rounded-full transition shadow-lg shadow-blue-500/20">Logout</button>
+                      <div class="flex items-center space-x-1.5 bg-gray-900 border border-gray-800 px-3 py-1 rounded-full text-xs text-gray-300">
+          <i class="fa-solid fa-user text-purple-400 text-[10px]"></i>
+          <span id="userNameDisplay">User</span>
+        </div>
+                </div>
+  </div>
+  </header>
+
+                     
+
+
+                
+                
             
 
 
