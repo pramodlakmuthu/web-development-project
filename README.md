@@ -38,41 +38,7 @@ Blood donations help:
 │   └── README.txt          # Assets documentation
 └── README.md               # This file
 ```
-
-## 🚀 Getting Started
-
-### 📌 Prerequisites
-
-- 🔧 Node.js installed on your system
-- 📦 npm (comes with Node.js)
-
-### 💻 Installation
-
-1. Navigate to the project directory
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-The application will automatically open in your default web browser.
-
-## 🛠️ Technologies Used
-
-- 🎨 **HTML5**: Semantic markup for the web interface
-- 💎 **Tailwind CSS**: Utility-first CSS framework for responsive design
-- 🎭 **Font Awesome**: Icon library for visual elements
-- 🟢 **Node.js**: Backend server environment
-- 🌐 **http-server**: Lightweight HTTP server for development
-
-## ❤️ Call to Action
-
-Don't wait. Check your eligibility today and become a blood donor. Together, we can ensure that no one dies because blood is unavailable.
+lity today and become a blood donor. Together, we can ensure that no one dies because blood is unavailable.
 
 ---
 
